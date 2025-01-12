@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix2</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
                 <img src="assets/logo.png" width="60" height="60" class="d-inline-block align-top" alt="Logo" style="object-fit: contain;">
             </a>
@@ -21,19 +22,30 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">TV Series</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Movies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">History</a>
+                        <a class="nav-link" href="#">Latest</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">List</a>
+                        <a class="nav-link" href="#">My List</a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <div class="content">
+            <h1>The Witcher</h1>
+            <p>2019 | 18+ | 2 Seasons | TV Series</p>
+            <p>The Witcher follows the story of Geralt of Rivia, a solitary monster hunter, who struggles to find his place in a world where people often prove more wicked than monsters and beasts...</p>
+            <div class="buttons">
+                <button class="btn btn-danger">Play</button>
+                <button class="btn btn-secondary">My List</button>
+            </div>
+        </div>
     </header>
-    <!-- Rest of your content -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
